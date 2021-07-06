@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "check-migration": "babel-node migration-check.js --presets es2015,stage-2"
+    "check-migration": "babel-node migration-check.js --presets es2015,stage-2 ",
+    "check-report": "babel-node migration-check.js --presets es2015,stage-2 > migration-results.txt  "
   },
   "keywords": [],
   "author": "",

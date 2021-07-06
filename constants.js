@@ -1,4 +1,4 @@
-import {GTR, CD,AP1, EU1,US1,US2,US3, US4} from './config'
+import {GTR, CD,AP1, EU1,US1,US2,US3} from './config'
 
 
 export const INDEXES = {
@@ -38,10 +38,6 @@ export const CLUSTERS = {
 	US3: {
 		url: US3,
 		name:'us3'
-	},
-	US4: {
-		url: US4,
-		name:'us4'
 	},
 };
 

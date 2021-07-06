@@ -1,8 +1,5 @@
 import { INDEXES_VALUES } from "./constants";
 
-
-
-
 export const loadDB = async ({url}) => {
 	const client = await MongoClient.connect(url);
 	const db = await client.db("pathable");
